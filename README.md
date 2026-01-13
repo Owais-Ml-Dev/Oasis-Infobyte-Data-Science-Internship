@@ -1,79 +1,85 @@
-# Oasis Infobyte Data Science Internship 📊
+<div align="center">
+  <h1>Data Science Engineering Portfolio: Oasis Infobyte 📊</h1>
+  <p>
+    <b>Predictive Modeling | Statistical Inference | Feature Engineering</b>
+  </p>
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Internship](https://img.shields.io/badge/Oasis%20Infobyte-Data%20Science-orange)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+  <a href="https://github.com/Owais-Ml-Dev">
+    <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Role-Data%20Science%20Intern-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/October-2023-orange?style=for-the-badge" />
+</div>
 
-## 📌 Overview
-This repository contains the work completed during my **Data Science Internship** at **Oasis Infobyte** in **October 2023**. 
+---
 
-The internship focused on applying data science and machine learning concepts to real-world datasets. The primary emphasis was on data preprocessing, exploratory data analysis (EDA), model building, and evaluation using Python.
+## 📌 Executive Summary
+This repository serves as a technical log of my Data Science residency at **Oasis Infobyte**. During this tenure, I developed three distinct predictive systems focused on agricultural optimization, automotive market analysis, and real estate valuation. 
 
-## 💼 Internship Details
-| Attribute | Details |
+I moved beyond basic model implementation to focus on the **integrity of the analytical pipeline**, ensuring that data cleaning, outlier mitigation, and feature scaling were prioritized to produce high variance, low bias models.
+
+---
+
+## 🛠️ The Analytical Workflow
+Every project in this portfolio adheres to a structured, production grade engineering lifecycle:
+
+
+
+1.  **Exploratory Data Analysis (EDA):** Identifying latent patterns and multi collinearity through correlation matrices and distribution plots.
+2.  **Preprocessing & Transformation:** Standardizing numerical features and utilizing encoding techniques (One Hot / Label) for high cardinality categorical data.
+3.  **Feature Selection:** Engineering and selecting variables with the highest predictive power to minimize computational overhead.
+4.  **Regression Modeling:** Implementing a variety of algorithms including Linear Regression and Ensemble methods.
+5.  **Validation:** Measuring performance using robust metrics such as Mean Squared Error (MSE) and the Coefficient of Determination ($R^2$).
+
+---
+
+## 📂 Project Deep Dives
+
+### 1. Crop Yield Predictive Analysis 🌾
+* **Problem:** Estimating agricultural productivity based on environmental variables and input factors.
+* **Methodology:** Integrated datasets involving rainfall, pesticides, and average temperature. I focused on analyzing the historical variance of yields to identify long term productivity trends.
+* **Key Outcome:** Developed a model capable of forecasting yields with high precision, aiding in resource allocation.
+* **Notebook:** [Analyze Crop Yield Notebook](Project-1/crop%20yield%20prediction.ipynb)
+
+### 2. Belarus Automotive Market Valuation 🚗
+* **Problem:** Forecasting resale prices in the Belarus car market based on technical specifications and vehicle history.
+* **Methodology:** Handled significant categorical variance (Manufacturer, Fuel Type, Drive Train) and performed engine volume normalization. I implemented regression models to capture the depreciation curves typical of the regional market.
+* **Key Outcome:** Optimized the price prediction engine to account for mileage and vehicle age as primary weight factors.
+* **Notebook:** [Analyze Car Price Notebook](Project-2/Belarus%20Car%20Price%20Prediction%20(1).ipynb)
+
+### 3. Real Estate Price Regression 🏠
+* **Problem:** Building a valuation engine for residential properties based on structural and locational features.
+* **Methodology:** Conducted rigorous EDA to visualize house price distributions. I utilized feature scaling to ensure that square footage and room counts were treated with appropriate weight in the loss function.
+* **Key Outcome:** Established a reliable baseline for market valuation, reducing the error margin in property estimates.
+* **Notebook:** [Analyze House Price Notebook](Project-3/house%20price.ipynb)
+
+---
+
+## 🧪 Technical Arsenal
+
+| Category | Tools and Libraries |
 | :--- | :--- |
-| **Role** | Data Science Intern |
-| **Organization** | Oasis Infobyte |
-| **Mode** | Remote |
-| **Duration** | One Month (October 2023) |
-| **Domain** | Data Science and Machine Learning |
+| **Languages** | Python |
+| **Manipulation** | Pandas, NumPy |
+| **Visualization** | Seaborn, Matplotlib |
+| **Machine Learning** | Scikit learn (Regression, Metrics, Preprocessing) |
+| **Environment** | Jupyter Notebooks |
+
+
 
 ---
 
-## 📂 Projects
-
-Here is a summary of the projects completed during the internship.
-
-### 1. Crop Yield Prediction 🌾
-* **Objective:** Predict crop yield based on agricultural input features.
-* **Key Activities:** Data cleaning, feature analysis, correlation study, and model training.
-* **Notebook:** [View Notebook](crop%20yield%20prediction.ipynb)
-
-### 2. House Price Prediction 🏠
-* **Objective:** Predict house prices based on property features.
-* **Key Activities:** EDA to identify price-influencing factors, feature scaling, and regression model evaluation.
-* **Notebook:** [View Notebook](house%20price.ipynb)
-
-### 3. Car Price Prediction 🚗
-* **Objective:** Predict car prices based on vehicle specifications.
-* **Key Activities:** Data preprocessing, feature selection, and performance comparison of models.
-* **Notebook:** [View Notebook](Belarus%20Car%20Price%20Prediction.ipynb)
+## 📈 Growth and Ownership
+This internship was a catalyst for my transition from theoretical understanding to practical engineering. I focused on:
+* **Skepticism in Data:** Verifying data distributions before assuming model compatibility.
+* **Metric Selection:** Choosing the correct loss functions based on the business impact of the prediction error.
+* **Clean Code:** Maintaining modular and well documented notebooks that prioritize reproducibility.
 
 ---
 
-## ⚙️ Workflow Pipeline
-Each project in this repository follows a structured data science pipeline:
-1.  **Data Loading & Inspection:** Importing data and understanding structure.
-2.  **Preprocessing:** Cleaning missing values and handling outliers.
-3.  **EDA:** Visualizing data to understand patterns and trends.
-4.  **Feature Engineering:** Selection and transformation of variables.
-5.  **Model Training:** Applying machine learning algorithms.
-6.  **Evaluation:** Validating results using measurable metrics (RMSE, R2 Score, etc.).
-
----
-
-## 🛠️ Technologies & Tools Used
-* **Language:** Python
-* **Libraries:**
-    * NumPy
-    * Pandas
-    * Matplotlib
-    * Seaborn
-    * Scikit-learn
-* **Environment:** Jupyter Notebook
-
----
-
-## 🧠 Skills Demonstrated
-* ✅ Data cleaning and preprocessing
-* ✅ Exploratory Data Analysis (EDA)
-* ✅ Feature engineering and selection
-* ✅ Supervised Machine Learning (Regression/Classification)
-* ✅ Model evaluation and hyperparameter tuning
-* ✅ Documentation and reporting
-
----
-
-<p align="center">
-  <i>Completed as part of the Oasis Infobyte Internship Program.</i>
-</p>
+<div align="center">
+  <p><i>Developed with technical rigor by Owais Shaikh</i></p>
+  <a href="https://www.linkedin.com/in/owais-shk/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+</div>
